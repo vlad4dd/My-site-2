@@ -1,0 +1,78 @@
+body{
+    background-image: url('../images/backsp.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card_text{
+    color: white;
+    text-decoration: none;
+}
+
+.card_block1{
+    margin-top: 110px;
+    display: flex;
+    flex-direction: row;
+}
+.card_block2{
+    display: flex;
+    flex-direction: row;  
+}
+
+.card{
+    margin: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 23px;
+    text-align: center;
+}
+.card:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+   
+}
+
+footer{
+    width: 100%;
+
+    
+}
+
+.row{
+    justify-content: center;
+}
+
+.row div:first-child{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.row div:first-child img{
+    height: 65px;
+    width: 195px;
+}
+
+.row div h5{
+    text-align: center;
+}
+
+.row div:last-child{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row div:last-child .social_medias{
+    display: flex;
+    flex-direction: row;
+}
+
+.row div:last-child .social_medias img{
+    margin: 10px;
+}
